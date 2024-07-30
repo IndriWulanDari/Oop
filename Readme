@@ -1,15 +1,9 @@
-Di Go, kita tidak menggunakan class seperti dalam bahasa pemrograman berorientasi objek lainnya. 
-Namun, kita dapat mencapai prinsip yang sama menggunakan struct dan method. 
-
-Penjelasan:
-
-    Struct: Mobil didefinisikan sebagai struct dengan dua field: merk dan tahun.
-    Constructor: Fungsi NewMobil bertindak sebagai constructor dan mengembalikan pointer ke struct Mobil.
-    Method: Method infoMobil didefinisikan dengan receiver *Mobil untuk memungkinkan modifikasi pada instance Mobil jika diperlukan.
-    Main function: Di dalam fungsi main, kita membuat dua instance Mobil menggunakan constructor NewMobil dan memanggil method infoMobil untuk masing-masing instance.
-
-Dengan menggunakan pointer receiver (*Mobil) di method infoMobil, kita memastikan bahwa method ini dapat memodifikasi instance struct jika diperlukan.
-
-Output yang didapatkan :
-Mobil Toyota tahun 2020
-Mobil Honda tahun 2018
+Buatlah Sebuah Sistem Informasi Kebun Binatang
+1. Class Hewan yang terdiri dari nama, spesies, usia
+2. Pastikan yg ada di class hewan dapat diturunkan ke beberapa class hewan lainnya, contoh singa, gajah , monyet
+3. Kemudian pada kelas hewan, pada metod suara hewan berbunyi contoh, singa mengaum, ayam berkokok
+4. Terakhir buatkan suatu fungsi yg dapat menerima objek hewan dan memanggil method suara tadi
+    Simba the Lion says Roar! 
+    Dumbo the Elephant says Trumpet! 
+    George the Monkey says Ooh Ooh Aah Aah!
+   
